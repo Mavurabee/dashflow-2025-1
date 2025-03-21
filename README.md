@@ -105,7 +105,7 @@
 
 ## Sprint 1️⃣
 
-| 🗃️ UUser Story ID | 🚨 Estimativa |
+| 🗃️ User Story ID | 🚨 Estimativa |
 | :-------------: | :-------------: |
 |US1|18
 |US2|11
@@ -113,7 +113,7 @@
 
 ## Sprint 2️⃣
 
-| 🗃️ UUser Story ID | 🚨 Estimativa |
+| 🗃️ User Story ID | 🚨 Estimativa |
 | :-------------: | :-------------: |
 |US4|A determinar|
 |US5|A determinar|
@@ -124,7 +124,7 @@
 
 ## Sprint 3️⃣
 
-| 🗃️ UUser Story ID | 🚨 Estimativa |
+| 🗃️ User Story ID | 🚨 Estimativa |
 | :-------------: | :-------------: |
 |US10|A determinar|
 |US11|A determinar|
