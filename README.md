@@ -45,6 +45,17 @@
 
 ## 📋 Requisitos <a id="requisitos"></a>
 
+
+### 📌 Requisitos Não Funcionais
+| **ID** | **Título** |
+| :-------------: | :------------- |
+|RNF01| Documentação API – Application Programming Interface |
+|RNF02| Responsivo |
+|RNF03| Manual do Usuário |
+|RNF04| Modelagem do Banco de Dados |
+|RNF05| Implementação da pipeline de DevOps.|
+---
+
 ### 📌 Requisitos Funcionais
 | **ID** | **Persona** | **Título** | **Descrição** |
 | :-------------: | :-------------: | ------------- |------------- |
@@ -76,26 +87,28 @@
 |R26|Admin, Gestor, Operador| A persona deverá ser capaz de exportar dados do Dashboard para um arquivo CSV.|O sistema deve permitir que a persona exporte os dados exibidos no Dashboard para um arquivo CSV, facilitando a análise externa, a geração de relatórios e o compartilhamento de informações.|
 ---
 
+
 <br>
+
 
 ## 📈 Product Backlog <a id="backlog"></a>
 
 |🗃️ Id| 🏅 Rank| 🔥 Prioridade| 📝 User Story| 🚀 Sprint| 🎯 Requisito do Parceiro|
  :--------: | :--------: | :--------: | -------- | :--------: | :--------: |
-|US01|1|Alta|Eu, como operador, desejo visualizar a quantidade de cards atribuídos a mim e filtrar os cards dos meus projetos com base no período de criação e finalização, para acompanhar meu progresso e gerenciar melhor minhas tarefas.|1|R1,R2,R3|
-|US02|2|Alta|Eu, como operador, desejo visualizar todos os cards com base em seu status para acompanhar o andamento das tarefas nos projetos.|1|R4|
-|US03|3|Alta|Eu, como operador, desejo visualizar o tempo médio de conclusão dos cards finalizados e a quantidade de projetos em que estou participando para acompanhar meu desempenho e a eficiência na conclusão das tarefas.|1|R5,R6|
-|US04|4|Alta|Eu, como gestor, desejo visualizar a quantidade de cards atribuídos a cada operador sob minha gestão, assim como os cards designados a mim, para monitorar a distribuição de tarefas e gerenciar melhor a equipe.|2|R7,R8|
-|US05|5|Alta|Eu, como gestor, desejo filtrar os cards dos projetos que gerencio e que estão atribuídos a mim, considerando um período específico, para acompanhar a evolução das tarefas e a finalização das atividades.|2|R9,R10|
-|US06|6|Alta|Eu, como gestor, desejo visualizar todos os cards dos operadores que gerencio, filtrando-os com base em seu status, para monitorar o andamento das tarefas e a progressão dos projetos.|2|R11|
-|US07|7|Alta|Eu, como gestor, desejo visualizar informações por meio de indicadores que destaquem o tempo médio de conclusão dos cards finalizados pela equipe. Quero acompanhar o tempo médio que cada operador da equipe leva para finalizar uma tarefa, para avaliar a produtividade individual e coletiva.|2|R12|
-|US08|8|Alta|Eu, como gestor, desejo visualizar informações sobre retrabalhos e também obter detalhes sobre as issues dos projetos, incluindo a quantidade total, tipo, gravidade e prioridade, para analisar a eficiência da equipe e priorizar as ações corretivas de forma adequada.|2|R13,R14|
-|US09|9|Alta|Eu,como gestor de projetos, quero visualizar o total de cards organizados por tags, para poder analisar rapidamente a distribuição das tarefas e acompanhar o progresso de cada área do projeto de forma mais eficiente.|2|R15|
-|US10|10|Media|Eu, como Admin, desejo visualizar a quantidade de cards criados e finalizados dentro de um período específico, para monitorar o progresso das tarefas.|3|R16,R17|
-|US11|11|Media|Eu, como Admin, desejo visualizar informações sobre a quantidade de projetos, o número de cards em cada projeto, suas respectivas issues e o gestor responsável por cada projeto, para ter uma visão abrangente do andamento e da gestão dos projetos.|3|R18,R19,R20,R21|
-|US12|12|Media|Eu, como operador, gestor ou admin, desejo fazer login na aplicação para acessar meus indicadores, para monitorar o desempenho e os dados relevantes.|3|R22,R23,R24|
-|US13|13|Baixa|Eu, como admin, desejo integrar novas ferramentas ao sistema, permitindo a ampliação das funcionalidades e a interoperabilidade com diferentes plataformas, a fim de melhorar a eficiência e a experiência dos usuários.|3|R25|
-|US14|14|Baixa|Eu, como operador, gestor ou admin, quero realizar a exportação dos dados do Dashboard para um arquivo CSV, para que eu possa analisar, compartilhar ou arquivar os dados de forma prática e organizada, fora da plataforma.|3|R26|
+|US01|1|Alta|Eu, como operador, desejo visualizar a quantidade de cards atribuídos a mim e filtrar os cards dos meus projetos com base no período de criação e finalização, para acompanhar meu progresso e gerenciar melhor minhas tarefas.|1|R1,R2,R3,RFN01,RFN02,RFN04,RFN05|
+|US02|2|Alta|Eu, como operador, desejo visualizar todos os cards com base em seu status para acompanhar o andamento das tarefas nos projetos.|1|R4,RFN01,RFN02,RFN03,RFN05|
+|US03|3|Alta|Eu, como operador, desejo visualizar o tempo médio de conclusão dos cards finalizados e a quantidade de projetos em que estou participando para acompanhar meu desempenho e a eficiência na conclusão das tarefas.|1|R5,R6,RFN01,RFN02,RFN03,RFN05|
+|US04|4|Alta|Eu, como gestor, desejo visualizar a quantidade de cards atribuídos a cada operador sob minha gestão, assim como os cards designados a mim, para monitorar a distribuição de tarefas e gerenciar melhor a equipe.|2|R7,R8,RFN01,RFN02,RFN03,RFN05|
+|US05|5|Alta|Eu, como gestor, desejo filtrar os cards dos projetos que gerencio e que estão atribuídos a mim, considerando um período específico, para acompanhar a evolução das tarefas e a finalização das atividades.|2|R9,R10,RFN01,RFN02,RFN03,RFN05|
+|US06|6|Alta|Eu, como gestor, desejo visualizar todos os cards dos operadores que gerencio, filtrando-os com base em seu status, para monitorar o andamento das tarefas e a progressão dos projetos.|2|R11,RFN01,RFN02,RFN03,RFN05|
+|US07|7|Alta|Eu, como gestor, desejo visualizar informações por meio de indicadores que destaquem o tempo médio de conclusão dos cards finalizados pela equipe. Quero acompanhar o tempo médio que cada operador da equipe leva para finalizar uma tarefa, para avaliar a produtividade individual e coletiva.|2|R12,RFN01,RFN02,RFN03,RFN05|
+|US08|8|Alta|Eu, como gestor, desejo visualizar informações sobre retrabalhos e também obter detalhes sobre as issues dos projetos, incluindo a quantidade total, tipo, gravidade e prioridade, para analisar a eficiência da equipe e priorizar as ações corretivas de forma adequada.|2|R13,R14,RFN01,RFN02,RFN05|
+|US09|9|Alta|Eu,como gestor de projetos, quero visualizar o total de cards organizados por tags, para poder analisar rapidamente a distribuição das tarefas e acompanhar o progresso de cada área do projeto de forma mais eficiente.|2|R15,RFN01,RFN02,RFN03,RFN05|
+|US10|10|Media|Eu, como operador, gestor ou admin, desejo fazer authenticação na aplicação para acessar meus indicadores, para monitorar o desempenho e os dados relevantes.|2|R22,R23,R24,RFN01,RFN02,RFN03,RFN05|
+|US11|11|Media|Eu, como Admin, desejo visualizar informações sobre a quantidade de projetos, o número de cards em cada projeto, suas respectivas issues e o gestor responsável por cada projeto, para ter uma visão abrangente do andamento e da gestão dos projetos.|3|R18,R19,R20,R21,RFN01,RFN02,RFN03,RFN05|
+|US12|12|Media|Eu, como Admin, desejo visualizar a quantidade de cards criados e finalizados dentro de um período específico, para monitorar o progresso das tarefas.|3|R16,R17,RFN01,RFN02,RFN03,RFN05|
+|US13|13|Baixa|Eu, como admin, desejo integrar novas ferramentas ao sistema, permitindo a ampliação das funcionalidades e a interoperabilidade com diferentes plataformas, a fim de melhorar a eficiência e a experiência dos usuários.|3|R25,RFN01,RFN02,RFN03,RFN05|
+|US14|14|Baixa|Eu, como operador, gestor ou admin, quero realizar a exportação dos dados do Dashboard para um arquivo CSV, para que eu possa analisar, compartilhar ou arquivar os dados de forma prática e organizada, fora da plataforma.|3|R26,RFN01,RFN02,RFN03,RFN05|
 
 ---
 
@@ -107,26 +120,26 @@
 
 | 🗃️ User Story ID | 🚨 Estimativa |
 | :-------------: | :-------------: |
-|US1|18
-|US2|11
-|US3|28
+|US01|18
+|US02|11
+|US03|28
 
 ## Sprint 2️⃣
 
 | 🗃️ User Story ID | 🚨 Estimativa |
 | :-------------: | :-------------: |
-|US4|A determinar|
-|US5|A determinar|
-|US6|A determinar|
-|US7|A determinar|
-|US8|A determinar|
-|US9|A determinar|
+|US04|08|
+|US05|05|
+|US06|20|
+|US07|10|
+|US08|20|
+|US09|10|
+|US10|13|
 
 ## Sprint 3️⃣
 
 | 🗃️ User Story ID | 🚨 Estimativa |
 | :-------------: | :-------------: |
-|US10|A determinar|
 |US11|A determinar|
 |US12|A determinar|
 |US13|A determinar|
