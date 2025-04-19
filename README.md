@@ -57,50 +57,36 @@
 ---
 
 ### 📌 Requisitos Funcionais
-
-#### Operador 👤
 | **ID** | **Persona** | **Título** | **Descrição** |
 | -------------: | :-------------: | ------------- |------------- |
-|R1-OP|Operador|Total de cards|O sistema deverá apresentar um componente visual, denominado "card", que terá como objetivo exibir a quantidade total de cards nos quais o operador autenticado no sistema está vinculado como participante.|
-|R2-OP|Operador|Cards criados e finalizados em um período|O sistema deverá apresentar um componente visual em formato de gráfico que demonstre a quantidade de cards criados e a quantidade de cards finalizados dentro de um período de tempo selecionável.|
-|R3-OP|Operador|Total de cards por status do projeto|O sistema deverá apresentar um componente visual em formato de gráfico que demonstre a quantidade de cards em cada um dos seguintes status dentro de um projeto específico: New, In Progress, Ready for Test, Closed e Needs Info. Este gráfico tem como objetivo fornecer uma visão clara da distribuição dos cards ao longo do fluxo de trabalho do projeto.|
-|R4-OP|Operador|Tempo médio de conclusão de um card.|O sistema deverá apresentar um componente visual, denominado "card", que terá como objetivo exibir o tempo médio de finalização dos cards.|
-|R5-OP|Operador|Total de projetos|O sistema deverá apresentar um componente visual, denominado "card", que terá como objetivo exibir a quantidade total de projetos nos quais o operador autenticado no sistema está vinculado como participante.|
-|R6-OP|Operador|Informações sobre o perfil do operador|O sistema deverá apresentar ao operador autenticado na interface informações relevantes sobre sua conta, username, email e role.|
-|R7-OP|Operador|Realizar login na aplicação|O sistema deve garantir que o operador seja designado para a função ROLE_USER, assegurando que ele tenha acesso e permissões adequadas para visualizar e interagir apenas com as informações que são exclusivamente suas.|
----
-<br>
-
-#### Gestor 👤
-| **ID** | **Persona** | **Título** | **Descrição** |
-| :-------------: | :-------------: | ------------- |------------- |
-|R1-GE|Gestor|Quantidade de cards por operador sob gestão do gestor|O sistema deverá apresentar um componente visual ("card") que exiba, para o gestor autenticado, a quantidade total de cards associados a cada um dos operadores sob sua gestão. Este card permitirá ao gestor ter uma visão geral da distribuição de cards entre sua equipe.|
-|R2-GE|Gestor|Total de cards atribuídos ao gestor.|O sistema deverá apresentar um componente visual ("card") que exiba, para o gestor autenticado, a quantidade total de cards que foram especificamente atribuídos a ele como responsável ou participante.|
-|R3-GE|Gestor|Tempo médio de finalização dos cards dos operadores sob gestão do gestor.|O sistema deverá apresentar um componente visual ("card") que exiba, para o gestor autenticado, o tempo médio de finalização dos cards concluídos por todos os operadores por semana.|
-|R4-GE|Gestor|Quantidade de cards que passaram por retrabalho.|O sistema deverá apresentar um componente visual ("card") que exiba, para o gestor autenticado, a quantidade de cards que foram identificados como tendo passado por retrabalho.|
-|R5-GE|Gestor|Total de cards por status nos projetos|O sistema deverá apresentar um componente visual em formato de gráfico de pizza que demonstre a quantidade de cards em cada um dos seguintes status dentro dos projetos: New, In Progress, Ready for Test, Closed e Needs Info. Este gráfico tem como objetivo fornecer uma visão clara da distribuição dos cards ao longo do fluxo de trabalho do projeto.|
-|R6-GE|Gestor|Quantidade de tipos de Issues nos projetos.|O sistema deverá apresentar um componente visual em formato de gráfico que exiba a quantidade de issues, agrupadas por projeto, prioridade e tipo (Bug, Enhancement, Question).|
-|R7-GE|Gestor|Cards criados e finalizados dentro de um período.|O sistema deverá apresentar um componente visual em formato de gráfico que exiba a quantidade de cards criados e a quantidade de cards finalizados dentro de um período de tempo selecionável pelo gestor.|
-|R8-GE|Gestor|Quantidade de tags no projeto.|O sistema deverá apresentar um componente visual em formato de gráfico que exiba a quantidade de cada tipo de tag utilizada em cada projeto.|
-|R9-GE|Gestor|Perfil do gestor|O sistema deverá apresentar ao gestor autenticado na interface informações relevantes sobre sua conta,foto,username,email e role.|
-|R10-GE|Gestor|Fazer login na aplicação|O sistema deve garantir que o gestor seja designado para a função ROLE_MANAGER, assegurando que ele tenha acesso e permissões adequadas para visualizar e gerenciar informações pertinentes aos projetos sob sua responsabilidade, bem como seus próprios dados, e cards dos operadores.|
----
-<br>
-
-#### Admin 👤
-| **ID** | **Persona** | **Título** | **Descrição** |
-| :-------------: | :-------------: | ------------- |------------- |
-|R1-AD|Admin|Total de Projetos.|O sistema deverá apresentar um componente visual ("card") que exiba, a quantidade de projetos que o admin administra.|
-|R2-AD|Admin|Total de Cards.|O sistema deverá apresentar um componente visual("card")que exiba, a quantidade de cards por projeto.|
-|R3-AD|Admin|Total de Issues|O sistema deverá apresentar um componente visual("card")que exiba, a quantidade de issues por projeto.|
-|R4-AD|Admin|Gestor de cada projeto|O sistema deverá apresentar um componente de tabela para exibir a o projeto, gestor e a quantidade de operadores.|
-|R5-AD|Admin|Cadastrar usuário|O sistema deverá permitir o cadastro de novos usuários com perfis de administrador, gestor e operador. O cadastro exigirá nome completo, e-mail único e senha. além da seleção das Roles.  Obrigatoriamente é necessário selecionar pelo menos uma ferramenta ETL de uma lista disponível.Taiga,Jira ou Trello.|
-|R6-AD|Admin|Criar uma api para integração com outro sistema(trello, Jira).|O sistema deve disponibilizar uma API (Application Programming Interface) para integração com sistemas externos, como Trello e Jira, permitindo a sincronização de dados, como cards, projetos, tarefas e indicadores, entre as plataformas.|
-|R7-AD|Admin|Exportar dados para CSV.|O sistema deverá permitir que o administrador exporte seus dados para um arquivo CSV através de um botão na interface do DashBoard.|
-|R8-AD|Admin|Realizar o Login na aplicação.|O sistema deve garantir que o administrador seja designado para a função ROLE_ADMIN, permitindo-lhe acessar e gerenciar informações relacionadas a todos os projetos, usuários e configurações do sistema.|
-|R9-AD|Admin|Tabela log para gestão na aplicação.|Para garantir a rastreabilidade e auditoria, o sistema deverá apresentar ao administrador uma tabela detalhada de todas as ações executadas na aplicação.|
-|R10-AD|Admin|Cards criados e finalizados dentro de um período.|O sistema deverá apresentar um componente visual em formato de gráfico que exiba a quantidade de cards criados e a quantidade de cards finalizados dentro de um período de tempo selecionável pelo admin.|
-|R11-AD|Admin|Perfil de Admin.|O sistema deverá apresentar ao admin autenticado na interface informações relevantes sobre sua conta,foto,username,email e role.|
+|R1|Operador|Total de cards|O sistema deverá apresentar um componente visual, denominado "card", que terá como objetivo exibir a quantidade total de cards nos quais o operador autenticado no sistema está vinculado como participante.|
+|R2|Operador|Cards criados e finalizados em um período|O sistema deverá apresentar um componente visual em formato de gráfico que demonstre a quantidade de cards criados e a quantidade de cards finalizados dentro de um período de tempo selecionável.|
+|R3|Operador|Total de cards por status do projeto|O sistema deverá apresentar um componente visual em formato de gráfico que demonstre a quantidade de cards em cada um dos seguintes status dentro de um projeto específico: New, In Progress, Ready for Test, Closed e Needs Info. Este gráfico tem como objetivo fornecer uma visão clara da distribuição dos cards ao longo do fluxo de trabalho do projeto.|
+|R4|Operador|Tempo médio de conclusão de um card|O sistema deverá apresentar um componente visual, denominado "card", que terá como objetivo exibir o tempo médio de finalização dos cards.|
+|R5|Operador|Total de projetos|O sistema deverá apresentar um componente visual, denominado "card", que terá como objetivo exibir a quantidade total de projetos nos quais o operador autenticado no sistema está vinculado como participante.|
+|R6|Operador|Informações sobre o perfil do operador|O sistema deverá apresentar ao operador autenticado na interface informações relevantes sobre sua conta, username, email e role.|
+|R7|Operador|Realizar login na aplicação|O sistema deve garantir que o operador seja designado para a função ROLE_USER, assegurando que ele tenha acesso e permissões adequadas para visualizar e interagir apenas com as informações que são exclusivamente suas.|
+|R8|Gestor|Quantidade de cards por operador sob gestão do gestor|O sistema deverá apresentar um componente visual ("card") que exiba, para o gestor autenticado, a quantidade total de cards associados a cada um dos operadores sob sua gestão. Este card permitirá ao gestor ter uma visão geral da distribuição de cards entre sua equipe.|
+|R9|Gestor|Total de cards atribuídos ao gestor|O sistema deverá apresentar um componente visual ("card") que exiba, para o gestor autenticado, a quantidade total de cards que foram especificamente atribuídos a ele como responsável ou participante.|
+|R10|Gestor|Tempo médio de finalização dos cards dos operadores sob gestão do gestor|O sistema deverá apresentar um componente visual ("card") que exiba, para o gestor autenticado, o tempo médio de finalização dos cards concluídos por todos os operadores por semana.|
+|R11|Gestor|Quantidade de cards que passaram por retrabalho|O sistema deverá apresentar um componente visual ("card") que exiba, para o gestor autenticado, a quantidade de cards que foram identificados como tendo passado por retrabalho.|
+|R12|Gestor|Total de cards por status nos projetos|O sistema deverá apresentar um componente visual em formato de gráfico de pizza que demonstre a quantidade de cards em cada um dos seguintes status dentro dos projetos: New, In Progress, Ready for Test, Closed e Needs Info. Este gráfico tem como objetivo fornecer uma visão clara da distribuição dos cards ao longo do fluxo de trabalho do projeto.|
+|R13|Gestor|Quantidade de tipos de Issues nos projetos|O sistema deverá apresentar um componente visual em formato de gráfico que exiba a quantidade de issues, agrupadas por projeto, prioridade e tipo (Bug, Enhancement, Question).|
+|R14|Gestor|Cards criados e finalizados dentro de um período|O sistema deverá apresentar um componente visual em formato de gráfico que exiba a quantidade de cards criados e a quantidade de cards finalizados dentro de um período de tempo selecionável pelo gestor.|
+|R15|Gestor|Quantidade de tags no projeto|O sistema deverá apresentar um componente visual em formato de gráfico que exiba a quantidade de cada tipo de tag utilizada em cada projeto.|
+|R16|Gestor|Perfil do gestor|O sistema deverá apresentar ao gestor autenticado na interface informações relevantes sobre sua conta,foto,username,email e role.|
+|R17|Gestor|Fazer login na aplicação|O sistema deve garantir que o gestor seja designado para a função ROLE_MANAGER, assegurando que ele tenha acesso e permissões adequadas para visualizar e gerenciar informações pertinentes aos projetos sob sua responsabilidade, bem como seus próprios dados, e cards dos operadores.|
+|R18|Admin|Total de Projetos|O sistema deverá apresentar um componente visual ("card") que exiba, a quantidade de projetos que o admin administra.|
+|R19|Admin|Total de Cards|O sistema deverá apresentar um componente visual("card")que exiba, a quantidade de cards por projeto.|
+|R20|Admin|Total de Issues|O sistema deverá apresentar um componente visual("card")que exiba, a quantidade de issues por projeto.|
+|R21|Admin|Gestor de cada projeto|O sistema deverá apresentar um componente de tabela para exibir a o projeto, gestor e a quantidade de operadores.|
+|R22|Admin|Cadastrar usuário|O sistema deverá permitir o cadastro de novos usuários com perfis de administrador, gestor e operador. O cadastro exigirá nome completo, e-mail único e senha. além da seleção das Roles.  Obrigatoriamente é necessário selecionar pelo menos uma ferramenta ETL de uma lista disponível.Taiga,Jira ou Trello.|
+|R23|Admin|Criar uma api para integração com outro sistema(trello, Jira)|O sistema deve disponibilizar uma API (Application Programming Interface) para integração com sistemas externos, como Trello e Jira, permitindo a sincronização de dados, como cards, projetos, tarefas e indicadores, entre as plataformas.|
+|R24|Admin|Exportar dados para CSV|O sistema deverá permitir que o administrador exporte seus dados para um arquivo CSV através de um botão na interface do DashBoard.|
+|R25|Admin|Realizar o Login na aplicação|O sistema deve garantir que o administrador seja designado para a função ROLE_ADMIN, permitindo-lhe acessar e gerenciar informações relacionadas a todos os projetos, usuários e configurações do sistema.|
+|R26|Admin|Tabela log para gestão na aplicação|Para garantir a rastreabilidade e auditoria, o sistema deverá apresentar ao administrador uma tabela detalhada de todas as ações executadas na aplicação.|
+|R27|Admin|Cards criados e finalizados dentro de um período|O sistema deverá apresentar um componente visual em formato de gráfico que exiba a quantidade de cards criados e a quantidade de cards finalizados dentro de um período de tempo selecionável pelo admin.|
+|R28|Admin|Perfil de Admin|O sistema deverá apresentar ao admin autenticado na interface informações relevantes sobre sua conta,foto,username,email e role.|
 
 ---
 
@@ -111,24 +97,24 @@
 
 |🗃️ Id| 🏅 Rank| 🔥 Prioridade| 📝 User Story| 🚀 Sprint| 🎯 Requisito do Parceiro|
  :--------: | :--------: | :--------: | -------- | :--------: | :--------: |
-|US01|1|Alta|Eu, como operador, desejo visualizar a quantidade de cards atribuídos a mim e filtrar os cards dos meus projetos com base no período de criação e finalização, para acompanhar meu progresso e gerenciar melhor minhas tarefas.|1|R1-OP,R2-OP,RNF02,RNF04,RNF05|
-|US02|2|Alta|Eu, como operador, desejo visualizar todos os cards com base em seu status para acompanhar o andamento das tarefas nos projetos.|1|R3-OP,RNF01,RNF02,RNF03,RNF05|
-|US03|3|Alta|Eu, como operador, desejo visualizar o tempo médio de conclusão dos cards finalizados e a quantidade de projetos em que estou participando para acompanhar meu desempenho e a eficiência na conclusão das tarefas.|1|R4-OP,R5-OP,RNF01,RNF02,RNF03,RNF05|
-|US04|4|Alta|Eu, como gestor, desejo visualizar a quantidade de cards atribuídos a cada operador sob minha gestão, assim como os cards designados a mim, para monitorar a distribuição de tarefas e gerenciar melhor a equipe.|2|R1-GE,R2-GE,RNF01,RNF02,RNF03,RNF05|
-|US05|5|Alta|Eu, como gestor, desejo filtrar os cards dos projetos que gerencio e que estão atribuídos a mim, considerando um período específico, para acompanhar a evolução das tarefas e a finalização das atividades.|2|R7-GE,RNF01,RNF02,RNF03,RNF05|
-|US06|6|Alta|Eu, como gestor, desejo visualizar todos os cards dos operadores que gerencio, filtrando-os com base em seu status, para monitorar o andamento das tarefas e a progressão dos projetos.|2|R5-GE,RNF01,RNF02,RNF03,RNF05|
-|US07|7|Alta|Eu, como gestor, desejo visualizar informações por meio de indicadores que destaquem o tempo médio de conclusão dos cards finalizados pela equipe. Quero acompanhar o tempo médio que cada operador da equipe leva para finalizar uma tarefa, para avaliar a produtividade individual e coletiva.|2|R3-GE,RNF01,RNF02,RNF03,RNF05|
-|US08|8|Alta|Eu, como gestor, desejo visualizar informações sobre retrabalhos e também obter detalhes sobre as issues dos projetos, incluindo a quantidade total, tipo, gravidade e prioridade, para analisar a eficiência da equipe e priorizar as ações corretivas de forma adequada.|2|R4-GE,R6-GE,RNF01,RNF02,RNF05|
-|US09|9|Alta|Eu,como gestor de projetos, quero visualizar o total de cards organizados por tags, para poder analisar rapidamente a distribuição das tarefas e acompanhar o progresso de cada área do projeto de forma mais eficiente.|2|R8-GE,RNF01,RNF02,RNF03,RNF05|
-|US10|10|Media|Eu, como operador, gestor ou admin, desejo fazer authenticação na aplicação para acessar meus indicadores, para monitorar o desempenho e os dados relevantes.|2|R6-OP,R7-OP,R9-GE,R10-GE,R8-AD,R11-AD,RNF01,RNF02,RNF03,RNF05|
-US11|11|Media|Eu, como admin, desejo realizar o cadastro de novos usuários, sendo obrigatório associar ao menos uma ferramenta de gestão de projetos (Taiga, Trello ou Jira) durante o processo de criação da conta, para fins de integração e rastreamento das atividades no pipeline de ETL.|3|R5-AD,RNF01,RNF02,RNF03,RNF05|
-|US12|12|Media|Eu, como admin, desejo visualizar informações sobre a quantidade de projetos e o número de cards em cada projeto, para ter uma visão abrangente do andamento e da gestão dos projetos.|3|R1-AD,R2-AD,RNF01,RNF02,RNF03,RNF05|
-|US13|13|Media|Eu, como admin, desejo visualizar a quantidade de cards criados e finalizados dentro de um período específico, para monitorar o progresso das tarefas.|3|R10-AD,RNF01,RNF02,RNF03,RNF05|
-|US14|14|Media|Eu, como admin, desejo visualizar uma tabela que liste cada projeto, o gestor responsável e o número de pessoas alocadas em cada um, a fim de ter uma visão clara da estrutura e alocação de recursos nos projetos.|3|R4-AD,RNF01,RNF02,RNF03,RNF05|
-|US15|15|Media|Eu, como administrador, desejo visualizar, para cada projeto, detalhes sobre as issues dos projetos, incluindo a quantidade total, tipo, gravidade e prioridade, para analisar a eficiência da equipe e priorizar as ações corretivas de forma adequada.|3|R3-AD,RNF01,RNF02,RNF03,RNF05|
-|US16|16|Baixa|Eu, como admin, desejo integrar novas ferramentas ao sistema, permitindo a ampliação das funcionalidades e a interoperabilidade com diferentes plataformas, a fim de melhorar a eficiência e a experiência dos usuários.|3|R6-AD,RNF01,RNF02,RNF03,RNF05|
-|US17|17|Baixa|Eu, como admin, quero realizar a exportação dos dados do Dashboard para um arquivo CSV, para que eu possa analisar, compartilhar ou arquivar os dados de forma prática e organizada, fora da plataforma.|3|R7-AD,RNF01,RNF02,RNF03,RNF05|
-|US18|18|Baixa|Eu, como admin, para fins de auditoria e acompanhamento,  desejo visualizar uma tabela abrangente que registre cada ação realizada na aplicação, incluindo detalhes como o usuário que a executou, o tipo de ação e o timestamp da ocorrência.|3|R9-AD,RNF01,RNF02,RNF03,RNF05|
+|US01|1|Alta|Eu, como operador, desejo visualizar a quantidade de cards atribuídos a mim e filtrar os cards dos meus projetos com base no período de criação e finalização, para acompanhar meu progresso e gerenciar melhor minhas tarefas.|1|R1,R2,RNF02,RNF04,RNF05|
+|US02|2|Alta|Eu, como operador, desejo visualizar todos os cards com base em seu status para acompanhar o andamento das tarefas nos projetos.|1|R3,RNF01,RNF02,RNF03,RNF05|
+|US03|3|Alta|Eu, como operador, desejo visualizar o tempo médio de conclusão dos cards finalizados e a quantidade de projetos em que estou participando para acompanhar meu desempenho e a eficiência na conclusão das tarefas.|1|R4,R5,RNF01,RNF02,RNF03,RNF05|
+|US04|4|Alta|Eu, como gestor, desejo visualizar a quantidade de cards atribuídos a cada operador sob minha gestão, assim como os cards designados a mim, para monitorar a distribuição de tarefas e gerenciar melhor a equipe.|2|R8,R9,RNF01,RNF02,RNF03,RNF05|
+|US05|5|Alta|Eu, como gestor, desejo filtrar os cards dos projetos que gerencio e que estão atribuídos a mim, considerando um período específico, para acompanhar a evolução das tarefas e a finalização das atividades.|2|R14,RNF01,RNF02,RNF03,RNF05|
+|US06|6|Alta|Eu, como gestor, desejo visualizar todos os cards dos operadores que gerencio, filtrando-os com base em seu status, para monitorar o andamento das tarefas e a progressão dos projetos.|2|R12,RNF01,RNF02,RNF03,RNF05|
+|US07|7|Alta|Eu, como gestor, desejo visualizar informações por meio de indicadores que destaquem o tempo médio de conclusão dos cards finalizados pela equipe. Quero acompanhar o tempo médio que cada operador da equipe leva para finalizar uma tarefa, para avaliar a produtividade individual e coletiva.|2|R10,RNF01,RNF02,RNF03,RNF05|
+|US08|8|Alta|Eu, como gestor, desejo visualizar informações sobre retrabalhos e também obter detalhes sobre as issues dos projetos, incluindo a quantidade total, tipo, gravidade e prioridade, para analisar a eficiência da equipe e priorizar as ações corretivas de forma adequada.|2|R11,R13,RNF01,RNF02,RNF05|
+|US09|9|Alta|Eu,como gestor de projetos, quero visualizar o total de cards organizados por tags, para poder analisar rapidamente a distribuição das tarefas e acompanhar o progresso de cada área do projeto de forma mais eficiente.|2|R15,RNF01,RNF02,RNF03,RNF05|
+|US10|10|Media|Eu, como operador, gestor ou admin, desejo fazer authenticação na aplicação para acessar meus indicadores, para monitorar o desempenho e os dados relevantes.|2|R6,R7,R16,R17,R25,R28,RNF01,RNF02,RNF03,RNF05|
+US11|11|Media|Eu, como admin, desejo realizar o cadastro de novos usuários, sendo obrigatório associar ao menos uma ferramenta de gestão de projetos (Taiga, Trello ou Jira) durante o processo de criação da conta, para fins de integração e rastreamento das atividades no pipeline de ETL.|3|R22,RNF01,RNF02,RNF03,RNF05|
+|US12|12|Media|Eu, como admin, desejo visualizar informações sobre a quantidade de projetos e o número de cards em cada projeto, para ter uma visão abrangente do andamento e da gestão dos projetos.|3|R18,R19,RNF01,RNF02,RNF03,RNF05|
+|US13|13|Media|Eu, como admin, desejo visualizar a quantidade de cards criados e finalizados dentro de um período específico, para monitorar o progresso das tarefas.|3|R27,RNF01,RNF02,RNF03,RNF05|
+|US14|14|Media|Eu, como admin, desejo visualizar uma tabela que liste cada projeto, o gestor responsável e o número de pessoas alocadas em cada um, a fim de ter uma visão clara da estrutura e alocação de recursos nos projetos.|3|R21,RNF01,RNF02,RNF03,RNF05|
+|US15|15|Media|Eu, como administrador, desejo visualizar, para cada projeto, detalhes sobre as issues dos projetos, incluindo a quantidade total, tipo, gravidade e prioridade, para analisar a eficiência da equipe e priorizar as ações corretivas de forma adequada.|3|R20,RNF01,RNF02,RNF03,RNF05|
+|US16|16|Baixa|Eu, como admin, desejo integrar novas ferramentas ao sistema, permitindo a ampliação das funcionalidades e a interoperabilidade com diferentes plataformas, a fim de melhorar a eficiência e a experiência dos usuários.|3|R23,RNF01,RNF02,RNF03,RNF05|
+|US17|17|Baixa|Eu, como admin, quero realizar a exportação dos dados do Dashboard para um arquivo CSV, para que eu possa analisar, compartilhar ou arquivar os dados de forma prática e organizada, fora da plataforma.|3|R24,RNF01,RNF02,RNF03,RNF05|
+|US18|18|Baixa|Eu, como admin, para fins de auditoria e acompanhamento,  desejo visualizar uma tabela abrangente que registre cada ação realizada na aplicação, incluindo detalhes como o usuário que a executou, o tipo de ação e o timestamp da ocorrência.|3|R26,RNF01,RNF02,RNF03,RNF05|
 
 ---
 
