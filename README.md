@@ -10,11 +10,26 @@
 ---
 
 # 🔍 Tópicos
+- <a href="documentacoes">📚 Documentações</a>
 - <a href="#tecnologias">🔌 Tecnologias</a>
 - <a href="#requisitos">📋 Requisitos</a>
 - <a href="#backlog">📈 Product Backlog</a>
 - <a href="#sprint-backlog">🔄 Sprint Backlog</a>
 - <a href="#membros">👥 Membros</a>
+
+---
+
+## 📚 Documentações <a id="documentacoes"></a>
+
+> [!NOTE]
+> Documentações e guias do projeto:
+
+- [Documentação de Produto](./product-documentation-2025-1)
+- [Deploy Automático](https://github.com/manolito-fatec/dashflow-2025-1/wiki/Deploy-Autom%C3%A1tico)
+- [Integração Contínua (CI)](https://github.com/manolito-fatec/dashflow-2025-1/wiki/Integra%C3%A7%C3%A3o-Cont%C3%ADnua-(CI))
+- [Padrão de Projeto](https://github.com/manolito-fatec/dashflow-2025-1/wiki/Padr%C3%A3o-de-Projeto)
+- [Padrão para Documentação](https://github.com/manolito-fatec/dashflow-2025-1/wiki/Padr%C3%A3o-para-Documenta%C3%A7%C3%A3o)
+- [Testes](https://github.com/manolito-fatec/dashflow-2025-1/wiki/Testes)
 
 ---
 
