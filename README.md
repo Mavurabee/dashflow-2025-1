@@ -45,6 +45,7 @@
 
 ## 📋 Requisitos <a id="requisitos"></a>
 
+<a href="https://youtan-req.vercel.app/#Introduction">💻 Requisitos page</a>
 
 ### 📌 Requisitos Não Funcionais
 | **ID** | **Título** |
