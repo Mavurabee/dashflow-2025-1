@@ -29,6 +29,7 @@
 - [Integração Contínua (CI)](https://github.com/manolito-fatec/dashflow-2025-1/wiki/Integra%C3%A7%C3%A3o-Cont%C3%ADnua-(CI))
 - [Padrão de Projeto](https://github.com/manolito-fatec/dashflow-2025-1/wiki/Padr%C3%A3o-de-Projeto)
 - [Padrão para Documentação](https://github.com/manolito-fatec/dashflow-2025-1/wiki/Padr%C3%A3o-para-Documenta%C3%A7%C3%A3o)
+- [Rastreamento de Requisitos](https://youtan-req.vercel.app/#Introduction)
 - [Testes](https://github.com/manolito-fatec/dashflow-2025-1/wiki/Testes)
 - [Wireframe - Figma](https://www.figma.com/design/36kM1fJx7vGObzNir5PiL5/Logo?node-id=0-1&t=PsfYpFcVNKDPOzwy-1)
 ---
@@ -59,8 +60,6 @@
 <br>
 
 ## 📋 Requisitos <a id="requisitos"></a>
-
-<a href="https://youtan-req.vercel.app/#Introduction">💻 Requisitos page</a>
 
 ### 📌 Requisitos Não Funcionais
 | **ID** | **Título** |
