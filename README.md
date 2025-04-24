@@ -24,17 +24,15 @@
 > [!NOTE]
 > Documentações e guias do projeto:
 
-<ul>
-  <li><a href="https://github.com/manolito-fatec/dashflow-2025-1/wiki/Banco-de-Dados" target="_blank">Banco de Dados</a></li>
-  <li><a href="./product-documentation-2025-1" target="_blank">Documentação de Produto</a></li>
-  <li><a href="https://github.com/manolito-fatec/dashflow-2025-1/wiki/Deploy-Autom%C3%A1tico" target="_blank">Deploy Automático</a></li>
-  <li><a href="https://github.com/manolito-fatec/dashflow-2025-1/wiki/Integra%C3%A7%C3%A3o-Cont%C3%ADnua-(CI)" target="_blank">Integração Contínua (CI)</a></li>
-  <li><a href="https://github.com/manolito-fatec/dashflow-2025-1/wiki/Padr%C3%A3o-de-Projeto" target="_blank">Padrão de Projeto</a></li>
-  <li><a href="https://github.com/manolito-fatec/dashflow-2025-1/wiki/Padr%C3%A3o-para-Documenta%C3%A7%C3%A3o" target="_blank">Padrão para Documentação</a></li>
-  <li><a href="https://youtan-req.vercel.app/#Introduction" target="_blank">Rastreamento de Requisitos</a></li>
-  <li><a href="https://github.com/manolito-fatec/dashflow-2025-1/wiki/Testes" target="_blank">Testes</a></li>
-  <li><a href="https://www.figma.com/design/36kM1fJx7vGObzNir5PiL5/Logo?node-id=0-1&t=PsfYpFcVNKDPOzwy-1" target="_blank">Wireframe - Figma</a></li>
-</ul>
+- [Banco de Dados](https://github.com/manolito-fatec/dashflow-2025-1/wiki/Banco-de-Dados)
+- [Documentação de Produto](./product-documentation-2025-1)
+- [Deploy Automático](https://github.com/manolito-fatec/dashflow-2025-1/wiki/Deploy-Autom%C3%A1tico)
+- [Integração Contínua (CI)](https://github.com/manolito-fatec/dashflow-2025-1/wiki/Integra%C3%A7%C3%A3o-Cont%C3%ADnua-(CI))
+- [Padrão de Projeto](https://github.com/manolito-fatec/dashflow-2025-1/wiki/Padr%C3%A3o-de-Projeto)
+- [Padrão para Documentação](https://github.com/manolito-fatec/dashflow-2025-1/wiki/Padr%C3%A3o-para-Documenta%C3%A7%C3%A3o)
+- [Rastreamento de Requisitos](https://youtan-req.vercel.app/#Introduction)
+- [Testes](https://github.com/manolito-fatec/dashflow-2025-1/wiki/Testes)
+- [Wireframe - Figma](https://www.figma.com/design/36kM1fJx7vGObzNir5PiL5/Logo?node-id=0-1&t=PsfYpFcVNKDPOzwy-1)
 
 ---
 
