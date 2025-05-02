@@ -139,38 +139,38 @@ US11|11|Media|Eu, como admin, desejo realizar o cadastro de novos usuários, sen
 
 ## 🔄 Sprint Backlog <a id="sprint-backlog"></a>
 
-## Sprint 1️⃣
+## Sprint 1️⃣ - V1.0.0
 
-| 🗃️ User Story ID | 🚨 Estimativa |
-| :-------------: | :-------------: |
-|US01|18
-|US02|11
-|US03|28
+| 🗃️ User Story ID | 🚨 Estimativa | 🛠️ Status |
+| :-------------: | :-------------: | :-------------: |
+|US01|18|✅|
+|US02|11|✅|
+|US03|28|✅|
 
-## Sprint 2️⃣
+## Sprint 2️⃣ - V2.0.0
 
-| 🗃️ User Story ID | 🚨 Estimativa |
-| :-------------: | :-------------: |
-|US04|08|
-|US05|05|
-|US06|20|
-|US07|10|
-|US08|20|
-|US09|10|
-|US10|13|
+| 🗃️ User Story ID | 🚨 Estimativa | 🛠️ Status |
+| :-------------: | :-------------: | :-------------: |
+|US04|08|✅|
+|US05|05|✅|
+|US06|20|✅|
+|US07|10|✅|
+|US08|20|✅|
+|US09|10|✅|
+|US10|13|✅|
 
 ## Sprint 3️⃣
 
-| 🗃️ User Story ID | 🚨 Estimativa |
-| :-------------: | :-------------: |
-|US11|A determinar|
-|US12|A determinar|
-|US13|A determinar|
-|US14|A determinar|
-|US15|A determinar|
-|US16|A determinar|
-|US17|A determinar|
-|US18|A determinar|
+| 🗃️ User Story ID | 🚨 Estimativa | 🛠️ Status |
+| :-------------: | :-------------: | :-------------: |
+|US11|10|🚧|
+|US12|08|🚧|
+|US13|05|🚧|
+|US14|08|🚧|
+|US15|05|🚧|
+|US16|20|🚧|
+|US17|13|🚧|
+|US18|10|🚧|
 
 ---
 
