@@ -25,7 +25,7 @@
 > Documentações e guias do projeto:
 
 - [Banco de Dados](https://github.com/manolito-fatec/dashflow-2025-1/wiki/Banco-de-Dados)
-- [Documentação de Produto](./product-documentation-2025-1)
+- [Documentação de Produto](https://youtan-user-manual.vercel.app/#Introduction)
 - [Deploy Automático](https://github.com/manolito-fatec/dashflow-2025-1/wiki/Deploy-Autom%C3%A1tico)
 - [Integração Contínua (CI)](https://github.com/manolito-fatec/dashflow-2025-1/wiki/Integra%C3%A7%C3%A3o-Cont%C3%ADnua-(CI))
 - [Padrão de Projeto](https://github.com/manolito-fatec/dashflow-2025-1/wiki/Padr%C3%A3o-de-Projeto)
