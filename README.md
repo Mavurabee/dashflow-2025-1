@@ -28,7 +28,7 @@
 - [Documentação de Produto](https://youtan-user-manual.vercel.app/#Introduction)
 - [Deploy Automático](https://github.com/manolito-fatec/dashflow-2025-1/wiki/DO-‐-Deploy-Autom%C3%A1tico)
 - [Integração Contínua (CI)](https://github.com/manolito-fatec/dashflow-2025-1/wiki/DO-‐-Integra%C3%A7%C3%A3o-Cont%C3%ADnua-(CI))
-- [Padrão de Projeto](https://github.com/manolito-fatec/dashflow-2025-1/wiki/Padr%C3%A3o-de-Projeto)
+- [Padrão de Projeto](https://github.com/manolito-fatec/dashflow-2025-1/wiki/DEV-‐-Padr%C3%A3o-de-Projeto)
 - [Padrão para Documentação](https://github.com/manolito-fatec/dashflow-2025-1/wiki/DO-‐-Padr%C3%A3o-para-Documenta%C3%A7%C3%A3o)
 - [Rastreamento de Requisitos](https://youtan-req.vercel.app/#Introduction)
 - [Testes](https://github.com/manolito-fatec/dashflow-2025-1/wiki/DO-‐-Testes)
