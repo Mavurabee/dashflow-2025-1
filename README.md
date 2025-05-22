@@ -155,7 +155,7 @@ US11|11|Media|Eu, como admin, desejo realizar o cadastro de novos usuários, sen
 
 ## 🔄 Sprint Backlog <a id="sprint-backlog"></a>
 
-## Sprint 1️⃣ - V1.0.0
+## [Sprint 1️⃣ - V1.0.0](https://github.com/manolito-fatec/dashflow-2025-1/wiki/DEV-%E2%80%90-Sprint-1)
 
 | 🗃️ User Story ID | 🚨 Estimativa | 🛠️ Status |
 | :-------------: | :-------------: | :-------------: |
@@ -163,7 +163,7 @@ US11|11|Media|Eu, como admin, desejo realizar o cadastro de novos usuários, sen
 |US02|11|✅|
 |US03|28|✅|
 
-## Sprint 2️⃣ - V2.0.0
+## [Sprint 2️⃣ - V2.0.0](https://github.com/manolito-fatec/dashflow-2025-1/wiki/DEV-%E2%80%90-Sprint-2)
 
 | 🗃️ User Story ID | 🚨 Estimativa | 🛠️ Status |
 | :-------------: | :-------------: | :-------------: |
