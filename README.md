@@ -175,7 +175,7 @@ US11|11|Media|Eu, como admin, desejo realizar o cadastro de novos usuários, sen
 |US09|10|✅|
 |US10|13|✅|
 
-## [Sprint 3️⃣⃣ - V3.0.0](https://github.com/manolito-fatec/dashflow-2025-1/wiki/DEV-%E2%80%90-Sprint-3)
+## [Sprint 3️⃣ - V3.0.0](https://github.com/manolito-fatec/dashflow-2025-1/wiki/DEV-%E2%80%90-Sprint-3)
 
 | 🗃️ User Story ID | 🚨 Estimativa | 🛠️ Status |
 | :-------------: | :-------------: | :-------------: |
