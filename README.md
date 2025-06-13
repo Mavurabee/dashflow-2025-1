@@ -120,6 +120,7 @@
 |R26|Admin|Tabela log para gestão na aplicação|Para garantir a rastreabilidade e auditoria, o sistema deverá apresentar ao administrador uma tabela detalhada de todas as ações executadas na aplicação.|
 |R27|Admin|Cards criados e finalizados dentro de um período|O sistema deverá apresentar um componente visual em formato de gráfico que exiba a quantidade de cards criados e a quantidade de cards finalizados dentro de um período de tempo selecionável pelo admin.|
 |R28|Admin|Perfil de Admin|O sistema deverá apresentar ao admin autenticado na interface informações relevantes sobre sua conta,foto,username,email e role.|
+|R29|Dev-Ops|Trocar a cor do botão|A tela de login deve ter a cor do botão de login trocada para roxo|
 
 ---
 
